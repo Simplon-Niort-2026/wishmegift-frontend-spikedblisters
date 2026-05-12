@@ -1,0 +1,19 @@
+.button{
+    border: none;
+    width: 100px;
+    height: 32px;
+    border-radius: 16px;
+    background: #9E643C;
+    display: flex;
+    padding: 8px 2px 7px 4px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #E2E8DD;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
