@@ -1,0 +1,9 @@
+.banner-list-mobile {
+    background: #9E643C;
+    width: 351px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
