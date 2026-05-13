@@ -1,4 +1,5 @@
 import './App.css'
+import { BannerListMobile } from './components/BannerListMobile/BannerListMobile';
 import Button from './components/Button/Button'
 
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <Button name="Réserver" action={handleClick} />
+      <BannerListMobile title="Mes listes" />
     </>
 
   )
