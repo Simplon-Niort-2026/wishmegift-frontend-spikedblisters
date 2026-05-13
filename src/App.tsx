@@ -1,5 +1,6 @@
 import './App.css'
 import Button from './components/Button/Button'
+import StarRating from './components/StarRating/StarRating';
 
 
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <Button name="Réserver" action={handleClick} />
+      <StarRating />
     </>
 
   )
