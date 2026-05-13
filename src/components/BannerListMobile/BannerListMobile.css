@@ -1,9 +1,18 @@
-.banner-list-mobile {
+.banner-list-mobile{
     background: #9E643C;
     width: 351px;
     height: 87px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    font-size:20px;
+    color: #FFFFFF;
+}
+
+.banner-list-mobile p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
 }
