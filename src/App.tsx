@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Button name="Réserver" action={handleClick} />
-      <BannerListMobile title="Mes listes" />
+      <BannerListMobile title="Mes listes" date="13/05/2026" />
       <StarRating />
     </>
 
