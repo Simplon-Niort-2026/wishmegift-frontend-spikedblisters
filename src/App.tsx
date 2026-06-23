@@ -6,6 +6,7 @@ import StarRating from './components/StarRating/StarRating';
 import GiftCard from './components/GiftCard/GiftCard';
 import { TitleCardWishlistMobile } from './components/TitleCardWishlistMobile/TitleCardWishlistMobile';
 import { BannerListDetailMobile } from './components/BannerListDetailMobile/BannerListDetailMobile';
+import Header from './components/Header/Header';
 
 
 
@@ -24,9 +25,12 @@ function App() {
   return (
     
     <>
-    <header>
-      <Burger links={menu}></Burger>
-    </header>
+<Header logo={'/src/assets/logo wishmegift.png'} links={menu} >
+  
+</Header>
+
+
+  
     
       <Button name="Réserver" action={handleClick} />
 
