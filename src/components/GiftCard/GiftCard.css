@@ -1,0 +1,13 @@
+.giftCard {
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    height: 70px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    background: #E2E8DD;
+}

@@ -18,7 +18,7 @@ const StarRating = () => {
                     onMouseEnter={() => setHover(index)}
                     onMouseLeave={() => setHover(rating)}
                     size={20}
-                    color={index <= (hover || rating) ? '#ffd700' : '#e4e5e9'}
+                    color={index <= (hover || rating) ? '#ffd700' : '#ffffff'}
                     />
                 )
             })}
