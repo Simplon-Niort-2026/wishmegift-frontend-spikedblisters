@@ -5,6 +5,7 @@ import Burger, { type NavLink } from './components/Burger/Burger'
 import StarRating from './components/StarRating/StarRating';
 import GiftCard from './components/GiftCard/GiftCard';
 import { TitleCardWishlistMobile } from './components/TitleCardWishlistMobile/TitleCardWishlistMobile';
+import { BannerListDetailMobile } from './components/BannerListDetailMobile/BannerListDetailMobile';
 import Header from './components/Header/Header';
 
 
@@ -39,6 +40,8 @@ function App() {
 
       <GiftCard name='fourchette' description='lorem' link='https://fr.wikipedia.org/wiki/Fourchette' price={79.99}/>
 
+      <BannerListDetailMobile title="Mes listes"/>
+      <BannerListDetailMobile title="Mes listes Archivées"/>
     </>
 
   )
