@@ -1,13 +1,23 @@
 .giftCard {
-    width: 480px;
+    width: 280px;
     display: flex;
     flex-wrap: wrap;
     display: flex;
-    height: 70px;
+    height: 160px;
     padding: 0px 10px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 15px;
     background: #E2E8DD;
+}
+
+.giftCard h2,
+.giftCard p {
+    width: 50%;
+    margin: 5px 0
+}
+
+.giftCard h2{
+    text-align: center;
 }
