@@ -10,8 +10,10 @@ star-rating .on {color: #ffd700;
 
 
 .star-rating {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 23px;
+    width: 100px;
 }
