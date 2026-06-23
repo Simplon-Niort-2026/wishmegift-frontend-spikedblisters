@@ -7,7 +7,7 @@ import GiftCard from './components/GiftCard/GiftCard';
 import { TitleCardWishlistMobile } from './components/TitleCardWishlistMobile/TitleCardWishlistMobile';
 import { BannerListDetailMobile } from './components/BannerListDetailMobile/BannerListDetailMobile';
 import Header from './components/Header/Header';
-
+import Footer from './components/Footer/Footer';
 
 
 
@@ -42,6 +42,7 @@ function App() {
 
       <BannerListDetailMobile title="Mes listes"/>
       <BannerListDetailMobile title="Mes listes Archivées"/>
+      <Footer/>
     </>
 
   )

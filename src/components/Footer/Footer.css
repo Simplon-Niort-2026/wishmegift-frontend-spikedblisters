@@ -1,0 +1,28 @@
+footer{
+    background: #2D3047;
+    color: white;
+    height : 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    height : 80px;
+}
+
+footer a {
+    color: #E2E8DD;
+    text-decoration: none;
+}
+
+footer .left{
+    margin-left: 15%;
+}
+
+footer .right{
+    margin-right: 15%;
+}
+
+
+
