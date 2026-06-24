@@ -3,7 +3,7 @@
 }
 
 .link.header {
-  color: #2d3047;
+  color: var(--thirdly-color);
   font-weight: bold;
   transition: color 0.3s;
   display: inline;
@@ -11,11 +11,11 @@
 }
 
 .link.header:hover {
-  color: #9e643c;
+  color: var(--primary-color);
 }
 
 .link.burger {
-  color: #ecbc92;
+  color: var(--fourthly-color);
   text-decoration: none;
   transition: color 0.3s;
   display: block;
@@ -24,5 +24,5 @@
 }
 
 .link.burger:hover {
-  color: white;
+  color: var(--text-color-hover);
 }
