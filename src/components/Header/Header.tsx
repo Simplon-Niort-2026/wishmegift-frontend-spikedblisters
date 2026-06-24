@@ -12,9 +12,7 @@ export default function Header({ logo, links = [] }: HeaderProps) {
       <div className="header-inner">
         <img src={logo} alt="Logo" className="header-logo" />
         
-        <div className="burger-wrapper">
-          <Burger links={links} />
-        </div>
+        
 
         <nav className="header-nav">
             {links.map((link) => (
