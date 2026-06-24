@@ -1,0 +1,28 @@
+.link {
+  text-decoration: none;
+}
+
+.link.header {
+  color: #2d3047;
+  font-weight: bold;
+  transition: color 0.3s;
+  display: inline;
+  white-space: nowrap;
+}
+
+.link.header:hover {
+  color: #9e643c;
+}
+
+.link.burger {
+  color: #ecbc92;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.link.burger:hover {
+  color: white;
+}

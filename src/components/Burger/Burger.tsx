@@ -1,21 +1,23 @@
-import './Burger.css'
-import {pushRotate as Menu} from 'react-burger-menu'
-export interface NavLink {
-    id:number
-    label: string
-    url: string
-}
+import NavLink from "../NavLink/NavLink";
+import "./Burger.css";
+import { pushRotate as Menu } from "react-burger-menu";
+import type { NavLink as NavLinkType } from "../NavLinkTypes";
+
 interface BurgerProps {
-    links: NavLink[]
+  links: NavLinkType[];
 }
-export default function Burger(props: BurgerProps){
-    return(
-        <Menu right isOpen={false}width={'300px'}>
-        {props.links.map((link) => (
-            <a key= {link.id} className='link' href= {link.url}>{link.label}</a>
-        )
-    )
-        }
-        </Menu>
-    )
+export default function Burger(props: BurgerProps) {
+  return (
+    <Menu right isOpen={false} width={"300px"}>
+      {props.links.map((link) => (
+        <NavLink
+          key={link.id}
+          id={link.id}
+          label={link.label}
+          url={link.url}
+          variant="burger"
+        ></NavLink>
+      ))}
+    </Menu>
+  );
 }
