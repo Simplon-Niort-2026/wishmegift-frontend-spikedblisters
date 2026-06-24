@@ -1,7 +1,7 @@
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
-import Burger, { type NavLink } from '../../components/Burger/Burger';
+import { type NavLink } from '../../components/Burger/Burger';
 
 export default function Homepage(){
       const menu: NavLink[] = [{
