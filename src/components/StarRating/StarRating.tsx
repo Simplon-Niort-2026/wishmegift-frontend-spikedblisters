@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './StraRating.css'
+import './StarRating.css'
 import { FaStar } from 'react-icons/fa';
 
 const StarRating = () => {
@@ -18,7 +18,7 @@ const StarRating = () => {
                     onMouseEnter={() => setHover(index)}
                     onMouseLeave={() => setHover(rating)}
                     size={20}
-                    color={index <= (hover || rating) ? '#ffd700' : '#ffffff'}
+                    color={index <= (hover || rating) ? 'var(--star-color)' : 'var(--star-inactive-color)'}
                     />
                 )
             })}

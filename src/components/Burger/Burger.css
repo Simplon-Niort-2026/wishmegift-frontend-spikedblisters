@@ -7,28 +7,28 @@
 }
 
 .bm-menu {
-  background: #373a47;
+  background: var(--thirdly-color);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
 
 .bm-item {
   display: inline-block;
-  color: #d1d1d1;
+  color: var(--text-color);
   text-decoration: none;
   margin-bottom: 10px;
 }
 
 .bm-item:hover {
-  color: white;
+  color: var(--text-color-hover);
 }
 
 .bm-burger-bars {
-  background: #373a47;
+  background: var(--thirdly-color);
 }
 
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--overlay-bg);
 }
 .bm-burger-button {
   position: fixed;

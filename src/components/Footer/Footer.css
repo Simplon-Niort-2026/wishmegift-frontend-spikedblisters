@@ -1,6 +1,6 @@
 footer{
-    background: #2D3047;
-    color: white;
+    background: var(--thirdly-color);
+    color: var(--text-color);
     height : 100px;
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@ footer img {
 }
 
 footer a {
-    color: #E2E8DD;
+    color: var(--text-color);
     text-decoration: none;
 }
 
