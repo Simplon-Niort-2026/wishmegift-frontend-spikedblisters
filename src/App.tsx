@@ -34,14 +34,6 @@ function App() {
 
           </Header>
 
-
-          <header>
-              <Burger links={menu}></Burger>
-          </header>
-
-
-          <Button name="Réserver" action={handleClick}/>
-
           <BannerListMobile title="Mes listes" date="13/05/2026"/>
           <TitleCardWishlistMobile title='Titre de la liste'/>
           <StarRating/>

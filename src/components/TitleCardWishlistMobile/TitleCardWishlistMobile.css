@@ -1,5 +1,5 @@
 .title-card-wishlist-mobile-title{
-color: #000;
+color: var(--title-color);
 font-size: 32px;
 font-style: normal;
 font-weight: 400;

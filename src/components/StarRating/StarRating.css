@@ -1,0 +1,17 @@
+star-rating .on {color: var(--star-color);
+  /* Gold color for active stars */
+}
+
+
+.star-rating .off {
+  color: var(--star-inactive-color);
+  /* Light gray for inactive stars */
+}
+
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

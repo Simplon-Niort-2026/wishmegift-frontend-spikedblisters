@@ -1,5 +1,6 @@
 .banner-list-mobile{
-    background: #9E643C;
+    background: var(--primary-color);
+    color: var(--text-color);
     display: flex;
     width: 280px;
     height: 120px;
@@ -8,12 +9,11 @@
     justify-content: center;
     border-radius: 20px;
     font-size:20px;
-    color: #FFFFFF;
     padding: 10px;
 }
 
 .banner-list-mobile p{
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: var(--text-color);
 }
