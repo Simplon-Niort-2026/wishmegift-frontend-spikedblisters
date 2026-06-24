@@ -3,6 +3,7 @@
   height: 100%;
   right: 0;
   left: auto;
+  top:0;
 }
 
 .bm-menu {
@@ -30,11 +31,11 @@
   background: var(--overlay-bg);
 }
 .bm-burger-button {
-  position: relative;
+  position: fixed;
   width: 36px;
   height: 30px;
-  right: auto;
-  top: auto;
+  right: 20px;
+  top: 15px;
 }
 
 /* Afficher le burger uniquement sur mobile */

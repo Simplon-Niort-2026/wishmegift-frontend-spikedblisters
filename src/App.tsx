@@ -29,7 +29,10 @@ function App() {
   return (
 
       <>
-
+      
+          <Burger links={menu} />
+        
+          
           <Header logo={'/src/assets/logo wishmegift.png'} links={menu}>
 
           </Header>
