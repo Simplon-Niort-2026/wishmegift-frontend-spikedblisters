@@ -6,6 +6,17 @@
 
 :root{
   font-family: Raleway;
+  --main-color: #FFFFFF;
+  --primary-color: #9E643C;
+  --secondary-color: #E2E8DD;
+  --thirdly-color: #373a47;
+  --fourthly-color: #ECBC92;
+  --text-color:#ffffff;
+  --text-color-hover:#d1d1d1;
+  --star-color:#ffd700;
+  --star-inactive-color:#ffffff;
+  --overlay-bg: rgba(0, 0, 0, 0.3);
+  --title-color: #000000;
 }
 
 body{

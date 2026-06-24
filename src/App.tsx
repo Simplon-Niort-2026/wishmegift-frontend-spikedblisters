@@ -19,9 +19,11 @@ function App() {
     <>
       <Burger links={menu} />
 
+
       <Header logo={"/src/assets/logo wishmegift.png"} links={menu}></Header>
 
       <Button name="Réserver" action={handleClick} />
+
 
       <BannerListMobile title="Mes listes" date="13/05/2026" />
       <TitleCardWishlistMobile title="Titre de la liste" />

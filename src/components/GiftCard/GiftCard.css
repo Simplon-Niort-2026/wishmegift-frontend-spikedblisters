@@ -9,7 +9,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 15px;
-    background: #E2E8DD;
+    background: var(--secondary-color);
 }
 
 .giftCard h2,
