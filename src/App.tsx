@@ -29,16 +29,13 @@ function App() {
   return (
 
       <>
-
+      
+          <Burger links={menu} />
+        
+          
           <Header logo={'/src/assets/logo wishmegift.png'} links={menu}>
 
           </Header>
-
-
-          <header>
-              <Burger links={menu}></Burger>
-          </header>
-
 
           <Button name="Réserver" action={handleClick}/>
 

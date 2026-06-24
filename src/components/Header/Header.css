@@ -2,6 +2,7 @@
 	width: 100%;
 	background: #ECBC92;
 	box-sizing: border-box;
+  z-index: 1;
 }
 
 .header-inner {
